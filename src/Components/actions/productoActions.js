@@ -62,9 +62,9 @@ const agregarProductoError = (estado) => ({
 export const obtenerProductosAction = () => {
   return async (dispatch) => {
     dispatch(descargarProductos());
-
     try {
       const respuesta = await clienteAxios.get("/productos");
+      
       dispatch(descargaProductosExitosa(respuesta.data));
     } catch (error) {
       dispatch(descargaProductosError());
@@ -142,6 +142,7 @@ export const editarProductoAction = (producto) => {
     }
   };
 };
+
 const editarProducto = () => ({
   type: COMENZAR_EDICION_PRODUCTO,
 });

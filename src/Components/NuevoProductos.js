@@ -68,7 +68,7 @@ const NuevoProductos = ({ history }) => {
 
                 <label>Precio Producto</label>
                 <input
-                  type="number"
+                  type="text"
                   className="form-control"
                   placeholder="Precio Producto"
                   name="precio"
