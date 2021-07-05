@@ -1,6 +1,6 @@
 # Aplicación CRUD utilizando REDUX y Bootstrap
 
-## [Live Demo WIP]
+## [Live Demo](crud-products-redux-app.netlify.app)
 
 ## Tecnologías Utilizadas
 
@@ -15,6 +15,10 @@ Herramienta oficial para la creación de SPA (Single Page Applications) utilizan
 - [Axios](https://github.com/axios/axios)
 
 Cliente HTTP basado en promesas
+
+- [Json-server](https://www.npmjs.com/package/json-server)
+
+Creación de full fake REST API para realizar pruebas o mocking.
 
 ## Scripts Disponibles
 
